@@ -55,21 +55,22 @@ body{
 }
 
 .hero__btn{
+  display: block;
   text-decoration: none;
   color:var(--very-dark-cyan);
   background-color: white ;
-  padding: 6px 25px;
-  border-radius: 30px;
+  padding: 5px 30px;
+  border-radius: 20px;
   font-family: var(--poppins);
   font-weight: 600;
-  font-size: 13px;
-  box-shadow: 2px -2px 6px rgba(0, 0, 0, 0.087), -2px 2px 6px rgba(0, 0, 0, 0.087);
+  font-size: 11px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 3px;
 }
 
 .hero__section{
   width: 80%;
   margin: 0 auto;
-
 }
 
 .hero__title{
@@ -85,17 +86,17 @@ body{
 }
 
 .btn__started{
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  margin: 30px auto;
   background-color: var(--pink);
-  color: white;
-  padding: 12px;
-  border-radius: 30px;
   text-decoration: none;
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 30px;
+  padding: 12px 20px;
+  color: white;
+  font-size: 13px;
   font-weight: bold;
-  
 }
 
 .hero__imageView{
@@ -132,7 +133,7 @@ body{
 
 
 .img__figure{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -148,12 +149,14 @@ body{
 .card__title{
   text-align: center;
   margin: 20px;
+  font-size: 20px;
 }
 
 .card__paragraph{
   text-align: center;
   color: var(--grayish-blue);
-  font-size: 15px;
+  font-size: 14 px;
+  padding: 0 13px;
 }
 
 .community{
@@ -208,6 +211,10 @@ body{
 
 .footer__logo{
   margin: 25px 0;
+}
+
+.footer__img{
+  width: 50%;
 }
 
 .footer__info{
