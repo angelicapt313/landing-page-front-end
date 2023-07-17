@@ -22,8 +22,6 @@
 
 body{
   font-family: var(--open-sans);
-  height: 100vh;  
-  
 }
 
 .container{
@@ -35,7 +33,6 @@ body{
 
 .hero{
   min-height: 100vh;
-  position: relative;
   background:url('images/bg-hero-mobile.svg') ;
   padding: 0.1px;
 }
@@ -114,8 +111,8 @@ body{
 }
 
 .hero__information{
-  height: 100vh; 
-  margin-top: 60px;
+  min-height: 100vh; 
+  margin-top: 45px;
   margin-bottom: 40px;
 }
 
@@ -192,4 +189,9 @@ body{
   color: white;
   font-weight: bold;
   font-size: 12px;
+}
+
+.footer{
+  background-color: var(--very-dark-cyan);
+  height: 100vh;
 }
