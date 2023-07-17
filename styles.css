@@ -106,14 +106,14 @@ body{
 
 .hero__desktop{
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 50px;
   display: block;
 }
 
 .hero__information{
   min-height: 100vh; 
-  margin-top: 45px;
-  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 .card{
@@ -159,12 +159,14 @@ body{
 .community{
   width: 90%;
   height: 145px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: white;
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.153);
   padding: 0.1px;
+  position: relative;
+  top:95px;
 }
 
 
@@ -193,5 +195,64 @@ body{
 
 .footer{
   background-color: var(--very-dark-cyan);
-  height: 100vh;
+  color: white;
+  min-height: 100vh;
+  padding: 0.1px;
+}
+
+.footer__content{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.footer__logo{
+  margin: 25px 0;
+}
+
+.footer__info{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.location, .telephone, .email{
+  display: flex;
+  margin: 9px 0;
+}
+
+.figure__location, .figure__telephone, .figure__email{
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+.location__paragraph, .telephone__paragraph, .email__pararaph{
+  padding: 0 4px;  
+}
+
+.company__information{
+  list-style: none;
+  padding: 0;
+}
+
+.element{
+  margin-bottom: 13px;
+}
+
+.social__media{
+  display: flex;
+  justify-content: center;
+}
+
+.social__media__icon{
+  font-size: 17px;
+  margin: 12px;
+}
+
+.social__media__paragraph{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 13px;
+  margin-bottom: 45px;
+
 }
