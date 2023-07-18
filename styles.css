@@ -40,7 +40,7 @@ body{
 .hero__nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;      
   margin: 30px auto;
 }
 
@@ -261,5 +261,45 @@ body{
   font-size: 13px;
   margin-top: 13px;
   margin-bottom: 45px;
+
+}
+
+/*DESKTOP*/
+@media (min-width: 1440px) {
+
+  .hero__content__header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero__section{
+    width: 92%;
+    margin-top: 80px;
+  }
+
+  .hero__title{
+    width: 77%;
+    margin: 15px 0;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .hero__paragraph{
+    width: 88%;
+    text-align: left;
+    font-size: 21px;
+    margin: 20px 0;
+  }
+
+  .btn__started{
+    width: 325px;
+    height: 50px;
+    margin: 20px 0;
+    font-size: 19px;
+  }
+
 
 }
