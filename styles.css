@@ -24,23 +24,28 @@ body{
   font-family: var(--open-sans);
 }
 
-.container{
+.hero{
+  min-height: 100vh;
+  background:url('images/bg-hero-mobile.svg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 0.1px;
+
+}
+
+/* .container{
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.hero{
-  min-height: 100vh;
-  background:url('images/bg-hero-mobile.svg') ;
-  padding: 0.1px;
-}
+} */
 
 .hero__nav{
+  width: 90%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;      
   margin: 30px auto;
 }
 
@@ -55,11 +60,11 @@ body{
 }
 
 .hero__btn{
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color:var(--very-dark-cyan);
   background-color: white ;
-  padding: 5px 30px;
+  padding: 6px 26px;
   border-radius: 20px;
   font-family: var(--poppins);
   font-weight: 600;
@@ -155,8 +160,8 @@ body{
 .card__paragraph{
   text-align: center;
   color: var(--grayish-blue);
-  font-size: 14 px;
-  padding: 0 13px;
+  font-size: 13px;
+  
 }
 
 .community{
@@ -267,6 +272,18 @@ body{
 /*DESKTOP*/
 @media (min-width: 1440px) {
 
+  .hero{
+    background:url('images/bg-hero-desktop.svg') ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  }
+
+  .hero__btn{
+    padding: 6px 46px;
+  }
+  
   .hero__content__header{
     display: flex;
     align-items: center;
@@ -301,5 +318,64 @@ body{
     font-size: 19px;
   }
 
+  
+  .card{
+    width: 90%;
+    height: 400px;
+    padding: 0.1px;
+    
+  }
 
+  .card__grow{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  .card__flowing{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .card__users{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  .img__figure{
+    width: 55%;
+    margin:auto 0;
+  }
+
+  .img__card{
+    width: 100%;
+  }
+
+  .card__content{
+    width: 100%;
+    margin: auto 80px;
+  }
+
+  .card__title{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0;
+  } 
+
+  .card__paragraph{
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .card__paragraph__flowing, .card__title__flowing{
+    width: 100%;
+  }
+
+
+
+ 
 }

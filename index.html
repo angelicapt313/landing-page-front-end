@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 
@@ -20,6 +20,7 @@
       <figure class="hero__figure">
         <img src="images/logo.svg" alt="" class="hero__huddle">
       </figure>
+
       <a href="" class="hero__btn">Try It Free</a>
     </nav>
 
@@ -28,33 +29,34 @@
         <div class="hero__section">
           <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
           <p class="hero__paragraph">
-            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-            Create connections with your users as you engage in genuine discussion. 
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.
           </p>
           <a href="" class="btn btn__started"> Get Started For Free</a>
         </div>
-  
+
         <figure class="hero__imageView">
           <img class="hero__desktop" src="images/illustration-mockups.svg" alt="iMG">
         </figure>
       </section>
     </div>
-   
-    
-    
 
-  
   </header>
+
+
 
   <main class="hero__information">
     <section class="card hero__contents">
       <div class="card__grow">
-          <figure class="img__figure">
-            <img class="img__card" src="images/illustration-grow-together.svg" alt="">
-          </figure>
+        <figure class="img__figure">
+          <img class="img__card" src="images/illustration-grow-together.svg" alt="">
+        </figure>
+        <div class="card__content">
           <h2 class="card__title">Grow Together</h2>
-          <p class="card__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. 
+          <p class="card__paragraph">Generate meaningful discussions with your audience and build a strong, loyal
+            community.
             Think of the insightful conversations you miss out on with a feedback form. </p>
+        </div>
       </div>
     </section>
 
@@ -63,9 +65,12 @@
         <figure class="img__figure">
           <img class="img__card" src="images/illustration-flowing-conversation.svg" alt="">
         </figure>
-        <h2 class="card__title">Flowing Conversations</h2>
-        <p class="card__paragraph">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+        <div class="card__content">
+          <h2 class="card__title">Flowing Conversations</h2>
+        <p class="card__paragraph card__paragraph__flowing">You wouldn't paginate a conversation in real life, so why do it online? Our threads
           have just-in-time loading for a more natural flow.</p>
+        </div>
+        
       </div>
     </section>
 
@@ -74,9 +79,11 @@
         <figure class="img__figure">
           <img class="img__card" src="images/illustration-your-users.svg" alt="">
         </figure>
-        <h2 class="card__title">Your Users</h2>
-        <p class="card__paragraph">It takes no time at all to integrate Huddle with your app's authentication solution. 
-          This means, once signed in to your app, your users can start chatting immediately.</p>
+        <div class="card__content">
+          <h2 class="card__title">Your Users</h2>
+          <p class="card__paragraph">It takes no time at all to integrate Huddle with your app's authentication solution.
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
       </div>
     </section>
 
@@ -86,65 +93,67 @@
         <a class="community__btn" href="">Get Started For Free</a>
       </div>
     </section>
-    
+
   </main>
 </body>
+
 
 <footer class="footer">
   <div class="footer__content">
     <figure class="footer__logo">
-    <img class="footer__img" src="images/logoWhite.svg" alt="Logo Huddle">
-   </figure>
+      <img class="footer__img" src="images/logoWhite.svg" alt="Logo Huddle">
+    </figure>
 
-   <div class="footer__info">
-    <div class="location">
-  <figure class="figure__location">
-     <img class="img__icon" src="images/icon-location.svg" alt="Location">
-  </figure>
-      <p class="location__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-     </div>
-      
-     <div class="telephone">
-      <figure class="figure__telephone">
-        <img class="img__icon"  src="images/icon-phone.svg" alt="Telephone">
-      </figure>
-      <p class="telephone__paragraph">+1-543-123-4567</p>
-      
-     </div>
-     
+    <div class="footer__info">
+      <div class="location">
+        <figure class="figure__location">
+          <img class="img__icon" src="images/icon-location.svg" alt="Location">
+        </figure>
+        <p class="location__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua</p>
+      </div>
 
-     <div class="email">
-      <figure class="figure__email">
-        <img class="img__icon"  src="images/icon-email.svg" alt="E-mail">
-      </figure>
-      <p class="email__paragraph">example@huddle.com</p>
-     </div>
-   </div>
-   
-   <section class="company">
-    <ul class="company__information">
-      <li class="element element__aboutUs">About Us</li>
-      <li class="element element__weDo">What We Do</li>
-      <li class="element element__frecuentQuestions">FAQ</li>
-      <li class="element element__career">Career</li>
-      <li class="element element__blog">Blog</li>
-      <li class="element element__contanctUs">Contact Us</li>
-    </ul>
-   </section>
+      <div class="telephone">
+        <figure class="figure__telephone">
+          <img class="img__icon" src="images/icon-phone.svg" alt="Telephone">
+        </figure>
+        <p class="telephone__paragraph">+1-543-123-4567</p>
 
-   <section class="social__media">
-    <span class="social__media__icon"><i class="bi bi-facebook"></i></span>
-    <span class="social__media__icon">
-      <i class="bi bi-twitter"></i>
-    </span>
-    <span class="social__media__icon">
-      <i class="bi bi-instagram"></i>
-    </span>
-    
-   </section>
-   <p class="social__media__paragraph">© Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+
+
+      <div class="email">
+        <figure class="figure__email">
+          <img class="img__icon" src="images/icon-email.svg" alt="E-mail">
+        </figure>
+        <p class="email__paragraph">example@huddle.com</p>
+      </div>
+    </div>
+
+    <section class="company">
+      <ul class="company__information">
+        <li class="element element__aboutUs">About Us</li>
+        <li class="element element__weDo">What We Do</li>
+        <li class="element element__frecuentQuestions">FAQ</li>
+        <li class="element element__career">Career</li>
+        <li class="element element__blog">Blog</li>
+        <li class="element element__contanctUs">Contact Us</li>
+      </ul>
+    </section>
+
+    <section class="social__media">
+      <span class="social__media__icon"><i class="bi bi-facebook"></i></span>
+      <span class="social__media__icon">
+        <i class="bi bi-twitter"></i>
+      </span>
+      <span class="social__media__icon">
+        <i class="bi bi-instagram"></i>
+      </span>
+
+    </section>
+    <p class="social__media__paragraph">© Copyright 2018 Huddle. All rights reserved.</p>
   </div>
-   
+
 </footer>
 
 
