@@ -375,6 +375,27 @@ body{
     width: 100%;
   }
 
+  .community{
+    width: 48%;
+    height: 190px;
+    
+  }
+
+  .community__content{
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .community__paragraph{
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .community__btn{
+    font-size: 15px;
+    padding: 19px 72px;
+  }
+
 
 
  
